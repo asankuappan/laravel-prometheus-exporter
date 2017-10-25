@@ -72,7 +72,7 @@ abstract class AbstractResponseTimeMiddleware
         $manager->incByCounter(
             'requests_latency_milliseconds',
             'duration of http_requests',
-            $duration * 1000.0,
+            intval($duration * 1000.0),
             config('prometheus_exporter.namespace_http_server'),
             $label_keys,
             $label_values
