@@ -1,5 +1,5 @@
 {
-    "name": "telesphere/laravel-prometheus-exporter",
+    "name": "tback/laravel-prometheus-exporter",
     "description": "A prometheus exporter for the Laravel web framework",
     "keywords": ["laravel", "prometheus"],
     "type": "library",
